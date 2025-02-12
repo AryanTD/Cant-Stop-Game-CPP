@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A0857242D5D4CB1000DA017 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A0857222D5D4CB1000DA017 /* tools.cpp */; };
+		2A0857272D5D60F6000DA017 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A0857252D5D60F6000DA017 /* Player.cpp */; };
+		2A08572A2D5D6563000DA017 /* enums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A0857282D5D6563000DA017 /* enums.cpp */; };
 		2A28EA532D5D401B00F72144 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A28EA522D5D401B00F72144 /* main.cpp */; };
+		2A28EA5B2D5D40AB00F72144 /* Dice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A28EA592D5D40AB00F72144 /* Dice.cpp */; };
+		2A28EA5F2D5D445B00F72144 /* unitTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A28EA5E2D5D445B00F72144 /* unitTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A0857222D5D4CB1000DA017 /* tools.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
+		2A0857232D5D4CB1000DA017 /* tools.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tools.hpp; sourceTree = "<group>"; };
+		2A0857252D5D60F6000DA017 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		2A0857262D5D60F6000DA017 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		2A0857282D5D6563000DA017 /* enums.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = enums.cpp; sourceTree = "<group>"; };
+		2A0857292D5D6563000DA017 /* enums.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = enums.hpp; sourceTree = "<group>"; };
 		2A28EA4F2D5D401B00F72144 /* Cant Score */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cant Score"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A28EA522D5D401B00F72144 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2A28EA592D5D40AB00F72144 /* Dice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dice.cpp; sourceTree = "<group>"; };
+		2A28EA5A2D5D40AB00F72144 /* Dice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dice.hpp; sourceTree = "<group>"; };
+		2A28EA5E2D5D445B00F72144 /* unitTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unitTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +55,16 @@
 		2A28EA462D5D401B00F72144 = {
 			isa = PBXGroup;
 			children = (
-				2A28EA512D5D401B00F72144 /* Cant Score */,
+				2A0857282D5D6563000DA017 /* enums.cpp */,
+				2A0857292D5D6563000DA017 /* enums.hpp */,
+				2A0857252D5D60F6000DA017 /* Player.cpp */,
+				2A0857262D5D60F6000DA017 /* Player.hpp */,
+				2A0857222D5D4CB1000DA017 /* tools.cpp */,
+				2A0857232D5D4CB1000DA017 /* tools.hpp */,
+				2A28EA522D5D401B00F72144 /* main.cpp */,
+				2A28EA592D5D40AB00F72144 /* Dice.cpp */,
+				2A28EA5A2D5D40AB00F72144 /* Dice.hpp */,
+				2A28EA5E2D5D445B00F72144 /* unitTest.cpp */,
 				2A28EA502D5D401B00F72144 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,14 +75,6 @@
 				2A28EA4F2D5D401B00F72144 /* Cant Score */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2A28EA512D5D401B00F72144 /* Cant Score */ = {
-			isa = PBXGroup;
-			children = (
-				2A28EA522D5D401B00F72144 /* main.cpp */,
-			);
-			path = "Cant Score";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +134,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A28EA5B2D5D40AB00F72144 /* Dice.cpp in Sources */,
 				2A28EA532D5D401B00F72144 /* main.cpp in Sources */,
+				2A08572A2D5D6563000DA017 /* enums.cpp in Sources */,
+				2A28EA5F2D5D445B00F72144 /* unitTest.cpp in Sources */,
+				2A0857242D5D4CB1000DA017 /* tools.cpp in Sources */,
+				2A0857272D5D60F6000DA017 /* Player.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
