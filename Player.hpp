@@ -12,9 +12,9 @@ private:
     ECcolor color;
     int score;
     int scoreboard[3];
-    
     static bool takenColors[4]; // Track if colors are used (Index: 0=Orange, 1=Blue, 2=Yellow, 3=Green
     static vector<string> takenNames; // Track used player names
+    static string toLowerCase(const std::string& str); // Helper function to convert string to lowercase
     
 public:
     Player(const string& playerName, ECcolor playerColor);

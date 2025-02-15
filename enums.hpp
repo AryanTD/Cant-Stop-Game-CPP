@@ -7,3 +7,6 @@
 // -----------------------------------------------------------------
 enum class ECcolor {White, Yellow, Green, Blue, Orange, Error};
 extern const string colorNames[];
+
+enum class ECstate { Available, Pending, Captured };
+extern const string stateNames[];
